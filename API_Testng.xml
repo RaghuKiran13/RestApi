@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+	<listeners>
+		<listener class-name="com.techmahindra.nad.reports.TestngListener" />
+		<listener class-name="com.techmahindra.nad.reports.MyNXGTestListner" />
+	</listeners>
+	<test name="JiraAPI Test">
+		<classes>
+			<class name="com.techmahindra.nad.api.tests.JiraAPITestSuite"></class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="GitAPI Test">
+		<classes>
+			<class name="com.techmahindra.nad.api.tests.GitLabAPITestSuite"></class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="JenkinsAPI Test">
+		<classes>
+			<class name="com.techmahindra.nad.api.tests.JenkinsAPITestSuite"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

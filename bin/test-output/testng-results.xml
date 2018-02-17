@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" total="1" passed="1">
+=======
+<testng-results skipped="0" failed="0" ignored="7" total="8" passed="1">
+>>>>>>> jira
+  <reporter-output>
+  </reporter-output>
+<<<<<<< HEAD
+  <suite name="Default suite" duration-ms="592" started-at="2017-12-29T10:05:18Z" finished-at="2017-12-29T10:05:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="592" started-at="2017-12-29T10:05:18Z" finished-at="2017-12-29T10:05:18Z">
+      <class name="com.techmahindra.nad.sync_project.SyncProject_Marshalling">
+        <test-method status="PASS" signature="main()[pri:0, instance:com.techmahindra.nad.sync_project.SyncProject_Marshalling@158d2680]" name="main" duration-ms="577" started-at="2017-12-29T15:35:18Z" finished-at="2017-12-29T15:35:18Z">
+=======
+  <suite name="Suite" duration-ms="2270" started-at="2017-12-29T09:11:31Z" finished-at="2017-12-29T09:11:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2270" started-at="2017-12-29T09:11:31Z" finished-at="2017-12-29T09:11:33Z">
+      <class name="com.techmahindra.nad.api.tests.JiraAPITestSuite">
+        <test-method status="PASS" signature="createSubTask()[pri:2, instance:com.techmahindra.nad.api.tests.JiraAPITestSuite@2698dc7]" name="createSubTask" duration-ms="2250" started-at="2017-12-29T14:41:31Z" description="Create Issue – Create Sub Task Under the Story Created using Jira API" finished-at="2017-12-29T14:41:33Z">
+>>>>>>> jira
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- main -->
+      </class> <!-- com.techmahindra.nad.sync_project.SyncProject_Marshalling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+=======
+        </test-method> <!-- createSubTask -->
+      </class> <!-- com.techmahindra.nad.api.tests.JiraAPITestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+>>>>>>> jira
+</testng-results>

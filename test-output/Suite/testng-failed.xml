@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.techmahindra.nad.reports.TestngListener"/>
+    <listener class-name="com.techmahindra.nad.reports.MyNXGTestListner"/>
+  </listeners>
+  <test name="GitAPI Test(failed)">
+    <classes>
+      <class name="com.techmahindra.nad.api.tests.GitLabAPITestSuite">
+        <methods>
+          <include name="listBranch"/>
+        </methods>
+      </class> <!-- com.techmahindra.nad.api.tests.GitLabAPITestSuite -->
+    </classes>
+  </test> <!-- GitAPI Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

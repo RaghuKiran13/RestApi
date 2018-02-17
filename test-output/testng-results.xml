@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="9" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2968" started-at="2018-01-02T14:15:38Z" finished-at="2018-01-02T14:15:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2968" started-at="2018-01-02T14:15:38Z" finished-at="2018-01-02T14:15:41Z">
+      <class name="com.techmahindra.nad.api.tests.GitLabAPITestSuite">
+        <test-method status="PASS" signature="validation()[pri:6, instance:com.techmahindra.nad.api.tests.GitLabAPITestSuite@130d63be]" name="validation" duration-ms="2945" started-at="2018-01-02T19:45:38Z" description="Validation" finished-at="2018-01-02T19:45:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- com.techmahindra.nad.api.tests.GitLabAPITestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.techmahindra.nad.reports.TestngListener"/>
+    <listener class-name="com.techmahindra.nad.reports.MyNXGTestListner"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.techmahindra.nad.api.tests.JiraAPITestSuite">
+        <methods>
+          <include name="createSubTask"/>
+        </methods>
+      </class> <!-- com.techmahindra.nad.api.tests.JiraAPITestSuite -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
